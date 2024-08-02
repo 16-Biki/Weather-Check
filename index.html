@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-decoration: underline;color: rgb(55, 22, 241);">Weather Check </h1> 
+        <div class="search">
+            <input type="text" spellcheck="false" placeholder="enter a city name ">
+            <button><img src="logo.jpg"></button>
+        </div>
+        <div class="weather">
+            <img src="summer-rain-vector-icon.jpg">
+            <h2 class="temp" id="temp1" style="color: red;">27°C</h2>
+            <h3 class="temp" id="rain" style="color:rgb(14, 38, 159);"></h3>
+            <h1 class="city" id="city1">Jaipur</h1>
+            <div class="details">
+                <div class="humidity">
+                    <img src="humidity.jpg">
+                    <div>
+                        <p id="humidity" style="color: blue;">89%</p>
+                        <p style="color: black;">Humidity</p>
+                    </div>
+                </div>
+                <div class="windspeed">
+                    <img src="windspeed.jpg">
+                    <div>
+                        <p id="windspeed" style="color: chocolate;">3.6 km/h</p>
+                        <p style="color: black;">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: #333;
+}
+.container {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.search input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.search input[type="text"]:hover {
+    border-color: #1405e4;
+
+}
+.search input[type="text"]:focus {
+    border-color: #197ec6;
+    box-shadow: 1 1 5px rgba(9, 5, 227, 0.5);
+}
+.search button {
+    padding: 10px;
+    border: none;
+    background: #197ec6;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    background: #197ec6;
+    
+}
+.search button:hover {
+    background: #197ec6;
+}
+.search button img {
+    width:20px;
+    height:20px;
+}
+.weather img {
+    width: 105px;
+    height: 105px;
+    margin-bottom: 20px;
+}
+.weather h2.temp {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #333;
+}
+.weather h1.city {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+.details {
+    display: flex;
+    justify-content:space-between;
+    margin-top:20px;
+    gap:10px;
+}
+.humidity, .windspeed {
+    display:flex;
+    align-items:center;
+    width: 45%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.humidity img, .windspeed img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.humidity p, .windspeed p {
+    margin: 0;
+    color: #333;
+}
+.humidity p:first-child, .windspeed p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+.humidity p:last-child, .windspeed p:last-child {
+    font-size: 14px;
+    color: #666;
+}
